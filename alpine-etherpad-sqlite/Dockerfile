@@ -1,7 +1,7 @@
 FROM mhart/alpine-node:0.12
 MAINTAINER Chris Horn <chorn@chorn.com>
 
-ENV ETHERPAD_VERSION=1.5.7 ETHERPAD_PLUGINS="ep_adminpads ep_authorship_toggle ep_delete_empty_pads ep_font_family ep_headings2 ep_markdown ep_resizable_bars ep_syntaxhighlighting"
+ENV ETHERPAD_VERSION=1.5.7 ETHERPAD_PLUGINS="ep_adminpads ep_authorship_toggle ep_delete_empty_pads ep_headings2 ep_font_color ep_font_family ep_font_size ep_superscript ep_subscript ep_markdown ep_resizable_bars ep_syntaxhighlighting ep_copy_paste_images ep_tables2 ep_tasklist"
 
 WORKDIR /app
 VOLUME /app/var
